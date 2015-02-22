@@ -1,0 +1,11 @@
+link(href='css/custom.css', rel='stylesheet')
+each item in items
+    div#example-grid
+        div.row
+            div.five.columns= item.type
+            div.four.columns= item.repo.name
+            div.three.columns= item.created_at
+          div.row
+                div.four.columns= item.actor.login
+                div.eight.columns= item.actor.url
+          div.row.top-buffer
