@@ -5,12 +5,12 @@
 
 .person .name { font-weight: bolder;}
 .person .role { font-size: 90%;}
+.top-buffer {margin-top:20px; }
 
 img {
 	max-width:100%;
 	border: 1px grey solid;
 }
-
 #example-grid .columns, #example-grid .column{
 	background-color: #eee;
 	border-radius: 4px;
